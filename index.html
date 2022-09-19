@@ -35,7 +35,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#navbar-items"
                 aria-controls="navbar-items"
-                aria-expended="false"
+                aria-expanded="false"
                 aria-label="Toggle navigation"
             >
                 <i class="bi bi-list"></i>
@@ -60,7 +60,32 @@
     </nav>
 
     <!-- SLIDER -->
-
+    <div class="container" id="slider-container">
+        <div class="carousel slide" id="slider" data-bs-rider="carousel">
+            <div class="carousel-indicators">
+                <button 
+                    type="button"
+                    class="active" 
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="0"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+                <button 
+                    type="button"
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                ></button>
+                <button 
+                    type="button"
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
