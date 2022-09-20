@@ -248,3 +248,18 @@
         padding: 3.5em;
     }
 }
+
+/* footer top */
+#footer {
+    padding: 3em 2em;
+}
+
+#footer-top{
+    margin-bottom: 2em;
+
+}
+
+#footer-top,
+#footer-top i {
+    color: white;
+}
