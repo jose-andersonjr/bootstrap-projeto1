@@ -81,6 +81,10 @@
     border-radius: 0;
 }
 
+.btn-dark {
+    border-radius: 8px;
+}
+
 #slider .btn {
     padding: 0.3 0.8em;
     font-size: 1em;
@@ -214,5 +218,33 @@
 
     #featured-images .banner-content {
         opacity: 0;
+    }
+}
+
+/* INFO */
+#info-content {
+    margin-bottom: 4em;
+    padding: 4em 1em;
+
+}
+
+#info-numbers {
+    margin: 1.5em 0em;
+
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3 {
+    font-size: 3em;
+}
+
+@media(min-width: 768px) {
+    #info-content {
+        padding: 3.5em;
     }
 }
